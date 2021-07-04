@@ -1,1 +1,1 @@
-# suse_native
+# SUSE Cloud Native
