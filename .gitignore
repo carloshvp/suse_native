@@ -127,3 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+exercises/.vagrant/machines/default/virtualbox/private_key
