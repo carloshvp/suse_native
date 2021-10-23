@@ -74,7 +74,7 @@ def create():
                          (title, content))
             connection.commit()
             connection.close()
-            app.logger.info(f'New post created with title: {title}')
+            app.logger.info('New post created with title: ' + title)
 
             return redirect(url_for('index'))
 
