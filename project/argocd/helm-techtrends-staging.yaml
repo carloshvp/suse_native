@@ -15,4 +15,3 @@ spec:
     path: project/helm
     repoURL: https://github.com/carloshvp/suse_native
     targetRevision: HEAD
-   syncPolicy: {}
