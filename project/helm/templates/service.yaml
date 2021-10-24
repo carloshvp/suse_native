@@ -6,10 +6,10 @@ metadata:
   name: techtrends 
   namespace: {{ .Values.namespace.name }}
 spec:
-  type: {{ .Values.service.type }}
+  ports:
   - port: {{ .Values.service.port }}
     protocol: {{ .Values.service.protocol }}
     targetPort: {{ .Values.service.targetPort }}
   selector:
     app: techtrends
-  
+  type: {{ .Values.service.type }}
